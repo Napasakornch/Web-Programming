@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid #aaa;
+            text-align: center;
+            padding: 10px;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        td.lunch {
+            background-color: #ffe9b6;
+            
+            writing-mode: horizontal-tb;
+        }
+
+       
+        td.social-ethics {
+            background-color: #d1e7dd; 
+        }
+
+        td.web-programming {
+            background-color: #fce5cd; 
+        }
+
+        td.system-analysis {
+            background-color: #cfe2f3; 
+        }
+
+        td.ooad {
+            background-color: #f4cccc; 
+        }
+
+        td.network-tech {
+            background-color: #fff2cc; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Napasakorn Chuenchum</h1>
+    
+    <div>
+        <p>Lecturer in Applied Artificial Intelligence and Smart Technology<br>
+           Faculty of Science and Arts<br>
+           Buraoha University </p>
+    </div>
+    &nbsp;
+    <hr>
+    &nbsp;
+    <table>
+        <caption>ตารางเรียน</caption>
+        <thead>
+            <tr>
+                <th>Day/Time</th>
+                <th>8:00-9:00</th>
+                <th>9:00-10:00</th>
+                <th>10:00-11:00</th>
+                <th>11:00-12:00</th>
+                <th>12:00-13:00</th>
+                <th>13:00-14:00</th>
+                <th>14:00-15:00</th>
+                <th>15:00-16:00</th>
+                <th>16:00-17:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Mon</th>
+                <td></td>
+                <td colspan="2" class="social-ethics">Social Issues and Ethics for IT Professional</td>
+                <td class="lunch" rowspan="6">พักกลางวัน</td>
+                <td colspan="5" class="web-programming">Web Programming</td>
+            </tr>
+            <tr>
+                <th>Tue</th>
+                <td colspan="3"></td>
+                <td colspan="5"></td>
+            </tr>
+            <tr>
+                <th>Wed</th>
+                <td colspan="3" class="system-analysis">System Analysis and Designs</td>
+                <td colspan="5"></td>
+            </tr>
+            <tr>
+                <th>Thu</th>
+                <td></td>
+                <td colspan="2" class="ooad">Object Oriented Analysis and Designs</td>
+                <td colspan="5"></td>
+            </tr>
+            <tr>
+                <th>Fri</th>
+                <td></td>
+                <td colspan="2" class="network-tech">Computer Network Technology</td>
+                <td colspan="5"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
